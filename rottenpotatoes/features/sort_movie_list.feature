@@ -23,7 +23,7 @@ Background: movies have been added to database
   Then 10 seed movies should exist
 
 Scenario: sort movies alphabetically
-  When I follow "Movie Title"
+  When I follow "Movie title"
   # your steps here
   Then I should see "Aladdin" before "Amelie"
 
